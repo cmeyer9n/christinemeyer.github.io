@@ -1,0 +1,265 @@
+body {
+    margin: 0;  background: #333;
+}
+h1 {
+position: inherit;
+  font-family: "Karla", "Helvetica", sans-serif;
+  font-size: 200px;
+}
+
+h3 {
+  position: relative;
+  align: left;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  font-family: "Karla", "Helvetica", sans-serif;
+  font-size: 50px;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    padding-top: 100px;
+    font-family: "Futura", "Helvetica", sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar img {
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 40px;
+}
+
+.navbar ul {
+    line-height: 40px;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.navbar ul li {
+    list-style-type: none;
+    background: #83C5E5;
+    color: #695D46;
+}
+
+.listItemA {
+    height: 40px;
+    width: 29
+    0px;
+    transition: .4s;
+    position: relative;
+    left: -40px;
+}
+
+.listItemA:hover {
+    left: 0;
+}
+
+.listItemT {
+    text-align: center;
+}
+
+#logo {
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+    top: 50%;
+    left: ;
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.ueberschrift {
+  width: 1005px;
+  height: 600px;
+  margin-left:auto;
+  margin-right:0;
+  padding: 22px;
+  text-align: right;
+
+  line-height: 1.3em;
+}
+
+.about {
+  width: 1005px;
+  height: 700px;
+  margin-left:auto;
+  margin-right:0;
+  position: relative;
+
+  padding: 22px;
+
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+
+  color: rgb(25,25,25);
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-align: right;
+
+  line-height: 1.3em;
+}
+
+.about h2 {
+   position: absolute;
+   top: 200px;
+   left: 0px;
+   width: 100%;
+   font-family: "karla", "Helvetica", sans-serif;
+   font-size: 50px;
+   line-height: 50px;
+   color: #D54E02;
+   background: rgb(0, 0, 0);
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+
+}
+
+.about img {
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: -10px;
+    margin-right: 40px;
+    width: 100%
+}
+
+.gallery {
+  width: 1005px;
+  height: 3700px;
+  margin-left:auto;
+  margin-right:0;
+  position: relative;
+
+  padding: 22px;
+
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+
+  color: rgb(25,25,25);
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-align: right;
+
+  line-height: 1.3em;
+}
+
+.akt h2 {
+  top: 230px;
+  color:#ffffff;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 100%;
+  font-family: "karla", "Helvetica", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.akt {
+   position: relative;
+   width: 100%;
+}
+
+.illus h2 {
+  position: absolute;
+  align: left;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  font-family: "karla", "Helvetica", sans-serif;
+  font-size: 50px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.illus {
+  position: relative;
+}
+
+.doodles h2 {
+  color:#ffffff;
+  position: absolute;
+  left: 0px;
+  bottom: 800px;
+  width: 100%;
+  font-family: "karla", "Helvetica", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  padding: 10px;
+}
+
+}
+header div {
+  width: 200px;
+  margin: .5vw;
+}
+header div img {
+  width: 90%;
+}
+
+.contact {
+  width: 1005px;
+  height: 600px;
+  margin-left:auto;
+  margin-right:0;
+  position: relative;
+
+  padding: 22px;
+
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+
+  color: rgb(25,25,25);
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  text-decoration: inherit;
+  text-align: right;
+
+  line-height: 1.3em;
+
+}
+
+     .contact p {
+     position: relative;;
+     top: 200px;
+     left: 0px;
+     width: 100%;
+     font-family: "karla", "helvetica", sans-serif;
+     font-size: 40px;
+     line-height: 40px;
+     color: #D54E02;
+     padding: 10px;
+
+  }
+
+.impressum h1 {
+  line-height: 40px;
+  padding: 10px;
+}
+
+.impressum p {
+  font-family: "futura", "Helvetica", sans-serif;
+}
